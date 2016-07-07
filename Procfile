@@ -1,1 +1,1 @@
-web: parse-server
+web: node_modules/.bin/parse-server
