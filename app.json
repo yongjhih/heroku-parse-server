@@ -9,29 +9,137 @@
       "description": "A unique identifier for your app.",
       "value": "myAppId"
     },
-    "MASTER_KEY": {
-      "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "myMasterKey"
+    "PARSE_SERVER_APPLICATION_ID": {
+      "description": "Your Parse Application ID",
+      "value": "myAppId"
     },
-    "JAVASCRIPT_KEY": {
-      "description": "Key",
-      "value": "myKey"
+    "PARSE_SERVER_MASTER_KEY": {
+      "description": "Your Parse Master Key",
+      "value": "key"
     },
-    "REST_API_KEY": {
-      "description": "Key",
-      "value": "myKey"
+    "PORT": {
+      "description": "The port to run the ParseServer. defaults to 1337.",
+      "value": ""
     },
-    "FACEBOOK_APP_IDS": {
-      "description": "ids",
-      "value": "myId"
+    "PARSE_SERVER_DATABASE_URI": {
+      "description": "The full URI to your mongodb database",
+      "value": ""
     },
-    "PARSE_MOUNT": {
-      "description": "Configure Parse API route.",
-      "value": "/parse"
+    "PARSE_SERVER_DATABASE_OPTIONS": {
+      "description": "Options to pass to the mongodb client",
+      "value": ""
     },
-    "SERVER_URL": {
-      "description": "URL to connect to your Heroku instance (leave as http://localhost)",
-      "value": "http://localhost/parse"
+    "PARSE_SERVER_COLLECTION_PREFIX": {
+      "description": "A collection prefix for the classes",
+      "value": ""
+    },
+    "PARSE_SERVER_URL": {
+      "description": "URL to your parse server with http:// or https://.",
+      "value": ""
+    },
+    "PARSE_PUBLIC_SERVER_URL": {
+      "description": "Public URL to your parse server with http:// or https://.",
+      "value": ""
+    },
+    "PARSE_SERVER_CLIENT_KEY": {
+      "description": "Key for iOS, MacOS, tvOS clients",
+      "value": ""
+    },
+    "PARSE_SERVER_JAVASCRIPT_KEY": {
+      "description": "Key for the Javascript SDK",
+      "value": ""
+    },
+    "PARSE_SERVER_REST_API_KEY": {
+      "description": "Key for REST calls",
+      "value": ""
+    },
+    "PARSE_SERVER_DOT_NET_KEY": {
+      "description": "Key for Unity and .Net SDK",
+      "value": ""
+    },
+    "PARSE_SERVER_WEBHOOK_KEY": {
+      "description": "Key sent with outgoing webhook calls",
+      "value": ""
+    },
+    "PARSE_SERVER_CLOUD_CODE_MAIN": {
+      "description": "Full path to your cloud code main.js",
+      "value": ""
+    },
+    "PARSE_SERVER_PUSH": {
+      "description": "Configuration for push, as stringified JSON. See https://github.com/ParsePlatform/parse-server/wiki/Push",
+      "value": ""
+    },
+    "PARSE_SERVER_OAUTH_PROVIDERS": {
+      "description": "Configuration for your oAuth providers, as stringified JSON. See https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide#oauth",
+      "value": ""
+    },
+    "PARSE_SERVER_FILE_KEY": {
+      "description": "Key for your files",
+      "value": ""
+    },
+    "PARSE_SERVER_FACEBOOK_APP_IDS": {
+      "description": "Comma separated list for your facebook app Ids",
+      "value": ""
+    },
+    "PARSE_SERVER_ENABLE_ANON_USERS": {
+      "description": "Enable (or disable) anon users, defaults to true",
+      "value": ""
+    },
+    "PARSE_SERVER_ALLOW_CLIENT_CLASS_CREATION": {
+      "description": "Enable (or disable) client class creation, defaults to true",
+      "value": ""
+    },
+    "PARSE_SERVER_MOUNT_PATH": {
+      "description": "Mount path for the server, defaults to /parse",
+      "value": ""
+    },
+    "PARSE_SERVER_FILES_ADAPTER": {
+      "description": "Adapter module for the files sub-system",
+      "value": ""
+    },
+    "PARSE_SERVER_EMAIL_ADAPTER": {
+      "description": "Adapter module for the email sending",
+      "value": ""
+    },
+    "PARSE_SERVER_VERIFY_USER_EMAILS": {
+      "description": "Enable (or disable) user email validation, defaults to false",
+      "value": ""
+    },
+    "PARSE_SERVER_PREVENT_LOGIN_WITH_UNVERIFIED_EMAIL": {
+      "description": "Prevent user from login if email is not verified and PARSE_SERVER_VERIFY_USER_EMAILS is true, defaults to false",
+      "value": ""
+    },
+    "PARSE_SERVER_APP_NAME": {
+      "description": "Sets the app name",
+      "value": ""
+    },
+    "PARSE_SERVER_LOGGER_ADAPTER": {
+      "description": "Adapter module for the logging sub-system",
+      "value": ""
+    },
+    "PARSE_SERVER_LIVE_QUERY_OPTIONS": {
+      "description": "liveQuery options",
+      "value": ""
+    },
+    "PARSE_SERVER_CUSTOM_PAGES": {
+      "description": "custom pages for pasword validation and reset",
+      "value": ""
+    },
+    "PARSE_SERVER_MAX_UPLOAD_SIZE": {
+      "description": "Max file size for uploads.",
+      "value": ""
+    },
+    "PARSE_SERVER_SESSION_LENGTH": {
+      "description": "Session duration, defaults to 1 year",
+      "value": ""
+    },
+    "VERBOSE": {
+      "description": "Set the logging to verbose",
+      "value": ""
+    },
+    "PARSE_SERVER_REVOKE_SESSION_ON_PASSWORD_RESET": {
+      "description": "When a user changes their password, either through the reset password email or while logged in, all sessions are revoked if this is true. Set to false if you don't want to revoke sessions.",
+      "value": ""
     }
   },
   "image": "heroku/nodejs",
